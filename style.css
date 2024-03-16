@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: rgb(211, 211, 211);
+}
+
+.container {
+  display: flex;
+  background-color: white;
+  margin: 10px auto;
+  width: 790px;
+  height: 1130px;
+  align-items: flex-end;
+}
+
+/* Contact Section */
+.container1 {
+  width: 300px;
+  height: 100%;
+  margin-right: 5px;
+}
+.Profile {
+  display: flex;
+  justify-content: flex-start;
+}
+.Profile img {
+  height: auto;
+  width: 122%;
+}
+.Contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 35px;
+  background-color: black;
+  color: white;
+}
+
+/* Contact-info Section */
+.Contact-info {
+  margin: 5px;
+}
+.Contact-info div {
+  margin: 5px;
+}
+.Contact-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20%;
+}
+.Phone {
+  display: flex;
+}
+.Phone p {
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Email {
+  display: flex;
+}
+.Email p {
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Address {
+  display: flex;
+}
+.Address p {
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Expertise Section */
+.Expertise {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 35px;
+  background-color: black;
+  color: white;
+}
+.Expertise-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Expertise-info ul li {
+  margin: 5px;
+}
+
+/* Language Section */
+.Language {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 35px;
+  background-color: black;
+  color: white;
+}
+.Language-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Language-info ul li {
+  margin: 5px;
+}
+.Design2 {
+  display: flex;
+  align-items: flex-end;
+  height: 24.5%;
+}
+.Design2 img {
+  height: 240px;
+}
+
+/* Work Experience Section */
+.container2 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-left: 5px;
+  flex-direction: column;
+}
+.Name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Name h1 {
+  text-align: center;
+  font-size: 52px;
+}
+.Skill {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 0 0;
+}
+.Design1 {
+  display: flex;
+  height: 24%;
+  justify-content: flex-end;
+}
+.Design-image {
+  display: flex;
+  justify-content: flex-end;
+  width: 150px;
+}
+.Experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 35px;
+  width: 100%;
+  height: 35px;
+  background-color: black;
+  color: white;
+}
+.Experience-info div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.Experience-info span {
+  font-weight: bold;
+}
+
+/* Education Section */
+.Education {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 35px;
+  background-color: black;
+  color: white;
+}
+.Education-info div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.Education-info span {
+  font-weight: bold;
+}
+
+/* Skills  Section */
+
+.Skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 35px;
+  background-color: black;
+  color: white;
+}
+
+.Skills-info {
+  display: flex;
+  justify-content: center;
+}
+.Skills-info div {
+  margin: 10px 20px 20px 20px;
+  text-align: center;
+}
+.Skills-info div p {
+  margin-bottom: 10px;
+}
